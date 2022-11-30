@@ -1,0 +1,11 @@
+rootProject.name = "RecyclerViewLearning"
+include ':app'
+include ':multitype'
+include ':flap'
+include ':flap-animation'
+include ':flap-compiler'
+include ':flap-dsl-databinding'
+include ':flap-dsl-viewbinding'
+include ':flap-gradle-plugin'
+include ':flap-paging'
+include ':flap-annotations'

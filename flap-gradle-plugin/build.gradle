@@ -1,0 +1,19 @@
+apply plugin: 'java-library'
+
+group = 'me.yifeiyuan'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation gradleApi()
+    implementation localGroovy()
+    implementation 'com.android.tools.build:gradle:3.2.1' //transform api 需要
+
+    implementation 'org.ow2.asm:asm-all:5.2'
+}
+
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
+
+repositories {
+    //mavenCentral()
+}
